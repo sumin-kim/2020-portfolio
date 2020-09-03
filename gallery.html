@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Works Page</title>
+
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <!-- Magnific Popup core CSS file -->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/templatemo-style.css" />
+<!--
+Verticard Template
+https://templatemo.com/tm-533-verticard
+
+Template re-distribution is NOT allowed on any kind of download website. Thank you.
+
+-->
+</head>
+
+<body>
+  <div class="tm-page-container mx-auto">
+    <header class="tm-header text-center">
+      <h1 class="tm-title text-uppercase">Sumin Kim</h1>
+      <p class="tm-primary-color"><i>2020 Portfolio</i></p>
+    </header>
+
+    <div class="tm-section">
+      <nav class="tm-nav">
+        <ul>
+          <li>
+            <a href="index.html"><span class="tm-nav-deco"></span>Index</a>
+          </li>
+          <li class="active">
+            <a href="gallery.html"><span class="tm-nav-deco"></span>Works</a>
+          </li>
+          <li>
+            <a href="contact.html"><span class="tm-nav-deco"></span>About</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="tm-content-container">
+        <div class="tm-content tm-content-2">
+          <p>
+            <span>[Music Video]</span><br>
+            Youtube Link : <a href="https://youtu.be/mm80Fm8GKgU">Puzzle Room teaser.</a>
+          </p>
+
+          <div class="container-fluid">
+            <div class="row tm-gallery" id="tmGallery">
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/222.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>Puzzle Room</span></h2>
+                    <p>more info...</p>
+                    <a href="img/gallery/pf.003.jpeg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+
+          <p>
+            <span>[Web Drama]</span><br>
+            Youtube Link : <a href="https://youtu.be/mm80Fm8GKgU">만약에 존댓말이 없다면</a>
+          </p>
+          <div class="container-fluid">
+            <div class="row tm-gallery" id="tmGallery">
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/111.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>만약 존댓말이 없다면</span></h2>
+                    <p>more info...</p>
+                    <a href="img/gallery/pf.001.jpeg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+          
+          <p>
+            <span>[Web Entertainment]</span><br>
+            Youtube Link :<br>
+            - <a href="https://youtu.be/qnvQSQCj5ZQ">이 지도만 있으면 누구나 1일1궁길 데이트 거뜬합니다</a><br>
+            - <a href="https://youtu.be/_j-F8lZyb1U">우리들의 일그러진 사이버, 나를 맞춰봐!</a><br>
+            - <a href="https://youtu.be/vSTzVQ9qcd4">동심잃은 대학생이 외국 전래동화 읽어보았다</a><br>
+          </p>
+          <div class="container-fluid">
+            <div class="row tm-gallery" id="tmGallery">
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/333.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>배리어프리 지도</span></h2>
+                    <p>more info...</p>
+                    <a href="img/gallery/pf.005.jpeg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/444.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>SK SUNNY</span></h2>
+                    <p>more info...</p>
+                    <a href="img/gallery/pf.007.jpeg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+              <div class="col-sm-6 tm-gallery-item">
+                <figure class="effect-bubba">
+                  <img src="img/gallery/555.jpg" alt="Gallery item" class="img-fluid" />
+                  <figcaption>
+                    <h2><span>엄마나라 동화책</span></h2>
+                    <p>more info...</p>
+                    <a href="img/gallery/pf.009.jpeg">View more</a>
+                  </figcaption>
+                </figure>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <span>Copyright Sumin's Portfolio</span>
+      <span>designed by Sumin Kim</span>
+    </footer>
+  </div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function () {
+      // Magnific Pop up
+      // https://dimsemenov.com/plugins/magnific-popup/
+      $('.tm-gallery').magnificPopup({
+        delegate: 'a', // child items selector, by clicking on it popup will open
+        type: 'image',
+        gallery: {
+          enabled: true
+        },
+      });
+    });
+  </script>
+
+</body>
+</html>
